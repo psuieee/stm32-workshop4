@@ -1,0 +1,15 @@
+# VS Code local settings (often machine-specific)
+.vscode/*
+!.vscode/extensions.json
+
+# Build outputs (binaries, objects, etc.)
+Debug/
+Release/
+*.elf
+*.bin
+*.map
+*.o
+*.obj
+
+# CubeIDE / Makefile generated files
+.mxproject
